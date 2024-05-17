@@ -5,12 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./output.css" rel="stylesheet">
+    <title>Portfolio</title>
 </head>
 
-<body>
-    <h1 class="text-3xl font-bold underline">
-        Hello world!
-    </h1>
+<body class="flex flex-col">
+    <div class="flex flex-col h-full bg-cover" style="background-image: url(./assets/bg2.png)">
+        <div name="navigation" class="flex justify-end pt-[30px]">
+            <nav name="menu" class="flex w-2/6 justify-around pr-8 font-semibold text-2xl text-white">
+                <a href="">Showcase</a>
+                <a href="">About</a>
+                <a href="">Contacts</a> 
+            </nav>
+        </div>
+        <section class="flex flex-col px-8 gap-48">
+            <div class="flex flex-col pt-32 gap-6">
+                <h1 class="font-bold text-7xl">Hi, I'm Jaanika</h1>
+                <p class="flex text-2xl">Currently a software development student at Kuressaare Ametikool.</p>
+                <p class="flex text-4xl font-semibold">Welcome to my portfolio!</p>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex">
+                    <h2 class="flex font-bold text-4xl">Showcase</h2>
+                </div>
+                <div class="flex bg-white justify-center w-5/6 p-8 mx-auto rounded-xl">
+                    
+                    <div class="flex flex-col w-1/3 mx-8">
+                        <div class="aspect-video">
+                            <img src="/src/assets/AI-Tool.PNG">
+                        </div>
+                        
+                        <div class="flex flex-col bg-cyan-800 p-4 space-y-4 -mt-20 mx-4 rounded-xl">
+                            <h4 class="flex font-bold text-2xl justify-center">AI Tool</h4>
+                            <div class="flex justify-center p-2 space-x-2">
+                                <a class="flex font-semibold text-xl text-white" href="https://github.com/JaanikaT/AI-Tool" target="_blank">In GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-1/3 mx-8">
+                        <div class="aspect-video">
+                            <img src="/src/assets/NextCent.PNG">
+                        </div>
+                        <div class="flex flex-col bg-cyan-800 p-4 space-y-4 -mt-20 mx-4 rounded-xl">
+                            <h4 class="flex font-bold text-2xl justify-center ]">NextCent</h4>
+                            <div class="flex justify-center p-2 space-x-2">
+                                <a class="flex font-semibold text-xl text-white" href="https://github.com/JaanikaT/Tailw1" target="_blank">In Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col w-1/3 mx-8">
+                        <div class="aspect-video">
+                            <img src="/src/assets/weather_app.PNG">
+                        </div>
+                        <div class="flex flex-col bg-cyan-800 p-4 space-y-4 -mt-20 mx-4 rounded-xl">
+                            <h4 class="flex font-bold text-2xl justify-center ">Weather App</h4>
+                            <div class="flex justify-center p-2 space-x-2">
+                                <a class="flex font-semibold text-xl text-white" href="https://github.com/JaanikaT/Tailw2" target="_blank">In Github</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="flex flex-col gap-4">
+                <div class="flex">
+                    <h2 class="flex font-bold text-4xl">About</h2>
+                </div>
+                <p class="flex text-xl">Learning to use Figma, HTML/CSS with Tailwind, Python, MySQL.</p>
+                <p class="flex text-xl">Coming soon: React, PHP Laravel.</p>
+            </div>  
+            <div class="flex flex-col gap-4">
+                <div class="flex">
+                    <h2 class="flex font-bold text-4xl">Contacts</h2>
+                </div>
+                <p class="flex text-xl">jaanika.teearu@ametikool.ee</p>
+                <p class="flex text-xl">+372 555 555 555</p>
+            </div>
+            
+        </section>
+    
+    </div>
 </body>
 
 </html>
